@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Profile</title>
+	<link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
+
+	<!-- Bootstrap Icons e Bootstrap  -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+	<!-- CSS Customizado -->
+	<link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body class="body">
+	<main class="main d-flex justify-content-center align-items-center">
+
+		<div class="container">
+			<div class="row justify-content-center">
+				<div class="col-11 col-md-9 col-lg-7">
+
+					<div class="card text-center shadow-lg">
+
+						<div class="card-header">
+							<ul class="nav nav-tabs card-header-tabs" id="menu" role="tablist">
+								<li class="nav-item font-monospace" role="presentation">
+									<button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane"
+										type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">Home</button>
+								</li>
+								<li class="nav-item font-monospace" role="presentation">
+									<button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane"
+										type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false">Sobre mim</button>
+								</li>
+								<li class="nav-item font-monospace" role="presentation">
+									<button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact-tab-pane"
+										type="button" role="tab" aria-controls="contact-tab-pane" aria-selected="false">Redes</button>
+								</li>
+							</ul>
+						</div> <!-- Final Card Header -->
+
+						<div class="card-body">
+							<div class="tab-content" id="tabContent">
+
+								<div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
+
+									<h1 class="card-title h2 font-monospace">Bem-vindo ao meu perfil!</h1>
+									<img src="./assets/img/avatar.jpg" class="rounded-circle img-thumbnail w-50" alt="avatar">
+									<p class="mt-2 ps-3 pe-3">Clique na aba <b>"Sobre mim"</b> para me conhecer melhor e na aba <b>"Redes"</b> se quiser saber onde me encontrar.
+									</p>
+
+								</div>
+
+								<div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
+									<h2 class="h4 custom-text-color-lighter font-monospace">Quem eu sou</h2>
+									<p class="ps-3 pe-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, ut. Error esse iste reprehenderit excepturi laudantium laborum unde voluptates sit? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat dignissimos id accusantium architecto quos magnam esse nesciunt dolorem amet incidunt quibusdam, totam accusamus temporibus expedita error animi alias laborum corporis!</p>
+
+									<h2 class="h4 custom-text-color-lighter font-monospace">O que eu faço</h2>
+									<p class="ps-3 pe-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, ut. Error esse iste reprehenderit excepturi laudantium laborum unde voluptates sit?</p>
+
+								</div>
+
+								<div class="tab-pane fade" id="contact-tab-pane" role="tabpanel" aria-labelledby="contact-tab" tabindex="0">
+									<div class="container pt-3">
+										<div class="row mb-4">
+											<div class="col-6">
+												<a href="#" class="link-body-emphasis">
+													<div class="redes_img img-tiktok">
+														<span class="redes_opacity"></span>
+														<i class="bi bi-tiktok h1"></i>
+														<span class="visually-hidden">Tiktok</span>
+													</div>
+												</a>
+											</div>
+											<div class="col-6">
+												<a href="#" class="link-body-emphasis">
+													<div class="redes_img img-youtube">
+														<span class="redes_opacity"></span>
+														<i class="bi bi-youtube h1"></i>
+														<span class="visually-hidden">Youtube</span>
+													</div>
+												</a>
+											</div>
+										</div>
+										<div class="row">
+											<div class="col-6">
+												<a href="#" class="link-body-emphasis">
+													<div class="redes_img img-insta">
+														<span class="redes_opacity"></span>
+														<i class="bi bi-instagram h1"></i>
+														<span class="visually-hidden">Instagram</span>
+													</div>
+												</a>
+											</div>
+											<div class="col-6">
+												<a href="#" class="link-body-emphasis">
+													<div class="redes_img img-twitch">
+														<span class="redes_opacity"></span>
+														<i class="bi bi-twitch h1"></i>
+														<span class="visually-hidden">Twitch</span>
+													</div>
+												</a>
+											</div>
+										</div>
+									</div> <!-- Final container -->
+								</div> <!-- Final Tab Pane Redes -->
+
+							</div> <!-- Final Tab Content -->
+						</div> <!-- Final Card Body -->
+					</div> <!-- Final Card -->
+
+				</div>
+			</div>
+		</div>
+	</main>
+
+	<footer class="footer mt-2 pt-3">
+		<div class="container-fluid text-light text-center">
+			<div class="row">
+				<div class="col-12 col-md-6">
+					<ul class="list-group">
+						<li class="list-group-item border-0 p-0 text-light">
+							Avatar de <a href="https://br.freepik.com/vetores-gratis/colecao-de-personagens-de-halloween-plana-rodada-avatar_5336884.htm#query=avatar%20perfil&position=15&from_view=keyword&track=ais" class="link-light" target="_blank">Freepik</a>
+						</li>
+
+						<li class="list-group-item border-0 p-0 text-light">
+							Foto de <a href="https://unsplash.com/pt-br/@helloimnik?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" class="link-light" target="_blank">Nik</a> na <a href="https://unsplash.com/pt-br/fotografias/QT3yOjx32rk?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" class="link-light" target="_blank">Unsplash</a>
+						</li>
+
+						<li class="list-group-item border-0 p-0 text-light">
+							Foto de <a href="https://unsplash.com/pt-br/@danny_lincoln?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" class="link-light" target="_blank">Daniel Lincoln</a> na <a href="https://unsplash.com/pt-br/fotografias/Qx0dq7dvEXA?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" class="link-light" target="_blank">Unsplash</a>
+						</li>
+					</ul>
+				</div>
+
+				<div class="col-12 col-md-6">
+					<ul class="list-group">
+						<li class="list-group-item border-0 p-0 text-light">
+							Foto de <a href="https://unsplash.com/pt-br/@christianw?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" class="link-light" target="_blank">Christian Wiediger</a> na <a href="https://unsplash.com/pt-br/fotografias/NmGzVG5Wsg8?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" class="link-light" target="_blank">Unsplash</a>
+						</li>
+
+						<li class="list-group-item border-0 p-0 text-light">
+							Foto de <a href="https://unsplash.com/pt-br/@georgiadelotz?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" class="link-light" target="_blank">Georgia de Lotz</a> na <a	href="https://unsplash.com/pt-br/fotografias/rncny1536Xs?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" class="link-light" target="_blank">Unsplash</a>
+						</li>
+
+						<li class="list-group-item border-0 p-0 text-light">
+							Favicon gerado em <a href="https://realfavicongenerator.net/" class="link-light" target="_blank">Favicon Generator</a>
+						</li>
+					</ul>
+				</div>
+			</div> <!-- Final row -->
+
+			<p class="copyright mb-0 mt-2 pb-2 font-monospace">Desenvolvido por Raquel Roessing | 2023</p>
+		</div>
+	</footer>
+
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</body>
+
+</html>

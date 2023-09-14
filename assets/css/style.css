@@ -1,0 +1,75 @@
+:root {
+	--custom-dark-color: #880934;
+	--custom-lighter-color: #c5124e;
+}
+
+.main {
+	min-height: calc(100vh - 30px);
+}
+
+.body {
+	background-color: var(--custom-dark-color);
+}
+
+.nav {
+	--bs-nav-link-color: var(--custom-dark-color);
+	--bs-nav-link-hover-color: var(--custom-lighter-color);
+}
+
+.custom-text-color-lighter {
+	color: var(--custom-lighter-color);
+}
+
+.card {
+	min-height: 27em;
+}
+
+.redes_img {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+	position: relative;
+	width: 100%;
+	min-height: 9.375em;
+	background-size: cover;
+	background-position: center;
+	border-radius: 10px;
+}
+
+.redes_opacity {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	border-radius: 10px;
+	background-color: #c5124e;
+	opacity: .4;
+	z-index: 0;
+}
+
+.redes_img i {
+	z-index: 1;
+}
+
+.img-tiktok {
+	background-image: url(../img/redes/tiktok.jpg);
+}
+
+.img-twitch {
+	background-image: url(../img/redes/twitch.jpg);
+}
+
+.img-youtube {
+	background-image: url(../img/redes/youtube.jpg);
+}
+.img-insta {
+	background-image: url(../img/redes/insta.jpg);
+}
+
+.footer {
+	background-color: var(--custom-lighter-color);
+}
+
+.footer .list-group {
+	--bs-list-group-bg: var(--custom-lighter-color) !important;
+}
